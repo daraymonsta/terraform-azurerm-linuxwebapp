@@ -7,7 +7,7 @@ Requirements: an existing Resource Group
 
 Terraform code to call the module files found in this repo.
 
-'''
+```
 # Configure the Azure provider
 terraform {
   required_version = ">= 1.1.0"
@@ -47,4 +47,4 @@ module "webapp" {
 output "webapp_url" {
   value = module.webapp.webapp_url
 }
-'''
+```
