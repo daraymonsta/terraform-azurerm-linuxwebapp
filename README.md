@@ -5,7 +5,7 @@ Requirements: an existing Resource Group
 
 ## Usage
 
-Terraform code to call the module files found in this repo.
+Example Terraform code used to call the module files.
 
 ```
 terraform {
