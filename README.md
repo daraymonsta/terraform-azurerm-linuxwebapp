@@ -4,9 +4,6 @@ Terraform module for provision of Azure service plan (Linux, free tier), Applica
 Requirements: an existing Resource Group
 
 ## Usage
-
-Example Terraform code used to call the module files.
-
 ```
 terraform {
   required_version = ">= 1.1.0"
